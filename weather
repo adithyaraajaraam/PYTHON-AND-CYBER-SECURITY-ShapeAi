@@ -25,7 +25,7 @@ print ("Curerent Humidity   : ",hmdt,'%')
 print ("Current Wind Speed  : ",wind_spd,'kmph')
 print("----------------------------------------------------------------")
 
-f=open("D:/Weather Report.txt",'a')
+f=open(" Weather Report.txt",'a')
 f.write("\n----------------------------------------------------------")
 f.write("\nCity name: {}".format(location.upper()))
 f.write("\nCurrent Temperature : {:.2f} deg C".format(temp_city))
